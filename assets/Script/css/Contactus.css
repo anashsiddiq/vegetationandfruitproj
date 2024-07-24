@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#full-width-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 16rem /* Full viewport height */
+
+}
+
+.greyfade{
+  margin-top: 5rem;
+  height: 140vh;
+}
+
+.greyfade h4{
+    color: #81C408;
+    position: relative;
+    top: 22px;
+}
+
+.greyfade h2{
+    color: #81C408;
+    font-size: 2rem;
+    
+}
+
+.greyfade p{
+    max-width: 133vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 22px;
+}
+.bigframe{
+    height: 15rem;
+}
+#center-icon i{
+    margin-top: auto;
+    color: #81C408 !important;
+}
+
+#submit-button:hover{
+    color: #ffff;
+    background-color: orangered;
+}
+
+@media (max-width: 480px) {
+    #breadcrumbstyle{
+        font-size: 11px !important;
+    }
+
+    .greyfade{
+        margin-top: 2rem;
+        height: 220vh;
+      }
+
+      .item-set{
+        margin-top: 29px !important;
+      }
+  
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #breadcrumbstyle{
+        font-size: 15px !important;
+    }
+
+    .greyfade{
+        margin-top: 2rem;
+        height: 220vh;
+      }
+
+      .item-set{
+        margin-top: 29px !important;
+      }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .greyfade{
+        margin-top: 2rem;
+        height: 220vh;
+      }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .greyfade{
+        margin-top: 2rem;
+        height: 150vh;
+      }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: blue;
+    }
+}
