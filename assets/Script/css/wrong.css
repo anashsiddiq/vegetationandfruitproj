@@ -33,6 +33,22 @@
     #breadcrumbstyle {
         font-size: 11px !important;
     }
-
    
 }
+.buttons-round{
+    border: 1px solid #ffc107 !important;
+    border-radius: 33px;
+    background-color: white;
+    width: 250px;
+    margin-top: 10px;
+    transition: 0.5s ease;
+  }
+
+  .buttons-round a{
+  color: #747D88;;
+  }
+
+  .buttons-round:hover{
+    background-color: #ffc107;
+  }
+
