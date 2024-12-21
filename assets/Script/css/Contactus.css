@@ -9,6 +9,135 @@ html,body{
     width: 100%;
 
 }
+/* navbar */
+/* General navbar styling */
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #46c40b, #b38900);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #fff !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa !important;
+}
+
+/* Navbar links */
+.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f8f9fa !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+    text-decoration: underline;
+}
+
+.nav-link.active {
+    color: #ffc107 !important;
+    font-weight: bold;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item {
+    color: #333 !important;
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background: #81C408;
+    color: #fff !important;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #ddd;
+}
+
+/* Search and icons */
+.d-flex .btn {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.d-flex .btn:hover {
+    background: #ffc107;
+    color: #333;
+}
+
+.d-flex .fa-shopping-bag,
+.d-flex .fa-user {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.d-flex .fa-shopping-bag:hover,
+.d-flex .fa-user:hover {
+    color: #ffc107;
+}
+
+/* Navbar toggler */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+/* Enable dropdown on hover */
+.dropdown-hover:hover > .dropdown-menu {
+    display: block;
+    position: absolute;
+  }
+  
+  /* Prevent flickering by ensuring dropdown stays visible when hovered */
+  .dropdown-hover .dropdown-menu {
+    margin-top: 0; /* Adjust based on design */
+    display: none;
+    transition: all 0.3s ease; /* Smooth visibility transition */
+  }
+  
+  .nav-item.dropdown-hover:hover > .nav-link {
+    color: #28a745; /* Change the link color on hover */
+  }
+
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+    }
+
+    .d-flex {
+        margin-top: 10px;
+    }
+
+    .dropdown-hover:hover {
+        display: none;
+        position: absolute;
+      }
+}
+/* Navbar toggler */
+
+
 
 #full-width-bg {
     background-size: cover;

@@ -122,3 +122,12 @@ document.querySelector('.back-to-top').addEventListener('click', function(event)
   });
 });
 
+
+document.getElementById('toggle-btn').addEventListener('click', function () {
+  const sidebar = document.getElementById('sidebar');
+  const toggleBtn = this;
+  sidebar.classList.toggle('collapsed');
+  toggleBtn.classList.toggle('collapsed');
+});
+
+
