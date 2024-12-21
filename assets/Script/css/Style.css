@@ -146,7 +146,10 @@ padding-left: 36px;
     .d-flex {
         margin-top: 10px;
     }
-   
+    #margin-element h2 {
+        position: relative;
+        right: 47px;
+    }
 }
 
 /* navbar */
