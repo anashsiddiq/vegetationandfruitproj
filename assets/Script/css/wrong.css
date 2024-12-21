@@ -16,3 +16,23 @@
 .notfound{
     margin-top: 5rem;
 }
+
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+    }
+
+    .d-flex {
+        margin-top: 10px;
+    }
+
+    #breadcrumbstyle {
+        font-size: 11px !important;
+    }
+
+   
+}
