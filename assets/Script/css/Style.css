@@ -146,9 +146,7 @@ padding-left: 36px;
     .d-flex {
         margin-top: 10px;
     }
-    .dropdown-hover:hover {
-        display: none;
-      }
+   
 }
 
 /* navbar */

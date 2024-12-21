@@ -7,3 +7,12 @@
     height: 16rem /* Full viewport height */
 
 }
+
+.errors > i {
+    font-size: 95px;
+    color: #ffc107 ;
+}
+
+.notfound{
+    margin-top: 5rem;
+}

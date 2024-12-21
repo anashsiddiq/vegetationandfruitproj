@@ -130,10 +130,7 @@ html,body{
         margin-top: 10px;
     }
 
-    .dropdown-hover:hover {
-        display: none;
-        position: absolute;
-      }
+   
 }
 /* Navbar toggler */
 
