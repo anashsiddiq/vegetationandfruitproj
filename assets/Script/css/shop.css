@@ -19,3 +19,10 @@
 .add-to-cart-btn:hover {
   background-color: #0056b3;
 }
+
+.margin-cards{
+  margin-top: 180px !important;
+}
+#validationTooltipUsernamePrepend{
+  font-size: 25px;
+}
