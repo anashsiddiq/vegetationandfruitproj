@@ -687,4 +687,7 @@ bottom: 35rem;
     background-color:#81C408;;
     transform: scale(1.05); 
 }
-
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 11px;
+}
