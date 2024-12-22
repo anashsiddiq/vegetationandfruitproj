@@ -1,49 +1,21 @@
 .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 100%;
-    background-color: #343a40;
-    color: white;
-    padding-top: 20px;
-    transition: all 0.3s;
-  }
-
-  .sidebar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-    transition: 0.3s;
-  }
-
-  .sidebar a:hover {
-  }
-
-  .content {
-    margin-left: 250px;
-    padding: 20px;
-  }
-
-  /* Toggle button */
-  .toggle-btn {
-    position: absolute;
-    top: 15px;
-    left: 250px;
-    background-color: #343a40;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    z-index: 10000;
-  }
-
-  .sidebar.collapsed {
-    margin-left: -250px;
-  }
-
-  .toggle-btn.collapsed {
-    left: 0;
-  }
-
+  height: 100vh;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+.card {
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  height: 150px;
+  object-fit: cover;
+}
+.add-to-cart-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+.add-to-cart-btn:hover {
+  background-color: #0056b3;
+}
