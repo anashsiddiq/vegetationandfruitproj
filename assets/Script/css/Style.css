@@ -88,12 +88,7 @@ padding-left: 36px;
 }
 
 /* Search and icons */
-.d-flex .btn {
-    border: 2px solid #fff;
-    color: #fff;
-    background: transparent;
-    transition: background 0.3s ease, color 0.3s ease;
-}
+/*  */
 
 .d-flex .btn:hover {
     background: #ffc107;

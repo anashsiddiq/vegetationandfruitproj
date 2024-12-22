@@ -11,9 +11,8 @@
   height: 150px;
   object-fit: cover;
 }
-.add-to-cart-btn {
-  background-color: #007bff;
-  color: #fff;
+.add-to-carts{
+  color: #fff !important;
   border: none;
 }
 .add-to-cart-btn:hover {
@@ -25,4 +24,23 @@
 }
 #validationTooltipUsernamePrepend{
   font-size: 25px;
+}
+.card-text{
+  text-align: left;
+}
+
+#less-fonts > h3{
+  font-size: 19px;
+    margin-top: 6px;
+}
+
+#less-fonts > button{
+  border: 1px solid #ffc107;
+  border-radius: 20px;
+  color:#81C408;
+  font-weight: 400;
+}
+
+#less-fonts > button:hover{
+  color: white;
 }
