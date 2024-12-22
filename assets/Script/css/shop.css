@@ -44,3 +44,32 @@
 #less-fonts > button:hover{
   color: white;
 }
+
+.custom-pagination .page-item .page-link {
+  color: #6c757d;
+  background-color: #f8f9fa; 
+  border: 1px solid #dee2e6; 
+  padding: 0.5rem 0.75rem; 
+  transition: all 0.3s ease; 
+}
+
+.custom-pagination .page-item.active .page-link {
+  color: #fff;
+  background-color: #ffc107; 
+  border-color: #ffc107; 
+  box-shadow: 0px 4px 6px #ffc107;
+}
+
+.custom-pagination .page-item .page-link:hover {
+  color: #fff; 
+  background-color: #81C408;
+  border-color: #81C408;
+  box-shadow: 0px 4px 6px #81C408 
+}
+
+.custom-pagination .page-item.disabled .page-link {
+  color: #adb5bd; 
+  background-color: #e9ecef; 
+  border-color: #dee2e6;
+  cursor: not-allowed; 
+}
