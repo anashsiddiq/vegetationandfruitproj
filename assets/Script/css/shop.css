@@ -3,6 +3,12 @@
   padding: 20px;
   border-right: 1px solid #ddd;
 }
+.sidebar h4{
+  font-size: 33px;
+  margin-bottom: 20px;
+  color: #718082;
+  
+}
 .card {
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -72,4 +78,31 @@
   background-color: #e9ecef; 
   border-color: #dee2e6;
   cursor: not-allowed; 
+}
+.font-inc{
+  font-size: 18px;
+  color: #81C408;
+  transition: 0.2s ease-in;
+}
+.font-inc:hover{
+  color: #ffc107;
+}
+.color-sets > h3{
+  color: #718082;
+}
+.rangeout > label{
+  color: #81C408;
+  font-size: 20px;
+  
+}
+
+.rangeout > input{
+  color: #81C408 !important;
+}
+
+.addition-item h5{
+  font-size: 15px;
+  color: #81C408 !important;
+  text-transform: capitalize;
+
 }
