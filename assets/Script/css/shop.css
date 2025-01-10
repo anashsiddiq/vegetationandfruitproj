@@ -106,3 +106,10 @@
   text-transform: capitalize;
 
 }
+
+
+@media only screen and (max-width : 768px) {
+  #heading-increase{
+    font-size: 18px;
+}
+} 

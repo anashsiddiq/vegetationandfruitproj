@@ -129,7 +129,9 @@ html,body{
     .d-flex {
         margin-top: 10px;
     }
-
+    #heading-increase a{
+        font-size: 18px;
+    }
    
 }
 /* Navbar toggler */

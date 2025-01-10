@@ -518,7 +518,7 @@ bottom: 35rem;
     #text-size button{
       width: 100%;
     }
-    #heading-increase a{
+    #heading-increase{
         font-size: 18px;
     }
 }
