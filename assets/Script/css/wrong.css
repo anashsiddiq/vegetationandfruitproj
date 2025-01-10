@@ -33,7 +33,9 @@
     #breadcrumbstyle {
         font-size: 11px !important;
     }
-   
+   #heading-increase{
+    font-size: 18px;
+   }
 }
 .buttons-round{
     border: 1px solid #ffc107 !important;

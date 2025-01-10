@@ -4,7 +4,7 @@
   border-right: 1px solid #ddd;
 }
 .sidebar h4{
-  font-size: 33px;
+  font-size: 18px;
   margin-bottom: 20px;
   color: #718082;
   
@@ -89,6 +89,7 @@
 }
 .color-sets > h3{
   color: #718082;
+  font-size: 18px;
 }
 .rangeout > label{
   color: #81C408;
@@ -106,10 +107,35 @@
   text-transform: capitalize;
 
 }
+.featured-color h4{
+  font-size: 18px;
+}
+.lowfonts div li{
+  font-size: 16px;
+}
 
-
+.image-set img{
+  max-width: 68px;
+  border-radius: 12px;
+  height: 59px;
+}
+.title-sets h3{
+  font-size: 16px;
+  color: #6c757d;
+  font-weight: 700;
+  font-size-adjust: calc(12px);
+}
+.stars li{
+  color: #ffc107;
+}
+.redline{
+  color: #DC3545 !important;
+}
 @media only screen and (max-width : 768px) {
   #heading-increase{
     font-size: 18px;
+}
+.margin-cards{
+  margin-top: 22vh !important;
 }
 } 

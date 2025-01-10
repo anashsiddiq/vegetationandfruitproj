@@ -475,6 +475,9 @@ bottom: 35rem;
      margin-right: auto;
      margin-top: 22px;
     }
+    #heading-increase {
+        font-size: 20px !important;
+    }
 }
 
 @media (max-width: 767px) {
@@ -559,6 +562,7 @@ bottom: 35rem;
     .yellow-background{
         height: 5% !important;
     }
+
 
 }
 
@@ -689,3 +693,4 @@ bottom: 35rem;
     content: 'prev';
     font-size: 11px;
 }
+
