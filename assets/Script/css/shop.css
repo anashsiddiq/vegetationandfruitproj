@@ -158,15 +158,24 @@
   margin: 50px auto;
   padding: 20px;
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
   #heading-increase{
     font-size: 18px;
 }
 .margin-cards{
-  margin-top: 676px !important;
+  margin-top: 476px !important;
+}
+.button-view button{
+  width: 100%;
+} 
+
 }
 
-} 
+
 
