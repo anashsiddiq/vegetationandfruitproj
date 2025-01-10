@@ -25,9 +25,7 @@
   background-color: #0056b3;
 }
 
-.margin-cards{
-  margin-top: 180px !important;
-}
+
 #validationTooltipUsernamePrepend{
   font-size: 25px;
 }
@@ -131,11 +129,44 @@
 .redline{
   color: #DC3545 !important;
 }
+
+.button-view button
+{
+ margin-top: 15px;
+  border: 2px solid #ffc107;;
+  border-radius: 20px;
+  width: 192px;
+  padding: 17px;
+  color: #81C408;
+  font-weight: 600;
+  box-shadow: 1px 1px 10px 0px #6c757d;
+  transition: 0.2s ease-in;
+  
+
+}
+.danger-classes img{
+  height: 136px;
+  margin-top: 27px;
+}
+.button-view button:hover{
+  background-color: #ffc107;
+  color: #e9ecef;
+}
+
+.custom-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
 @media only screen and (max-width : 768px) {
   #heading-increase{
     font-size: 18px;
 }
 .margin-cards{
-  margin-top: 22vh !important;
+  margin-top: 676px !important;
 }
+
 } 
+
