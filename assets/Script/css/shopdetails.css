@@ -149,11 +149,10 @@
     color: #e9ecef;
   }
 
-  /* Styling for the left image */
 .left-image {
     width: 100%;
     height: auto;
-    object-fit: cover; /* Makes sure the image covers the area without stretching */
+    object-fit: cover; 
   }
   
   /* Styling for the right content */
@@ -194,14 +193,9 @@
 .counter-value {
     font-size: 2rem;
     margin: 0 15px;
-    min-width: 60px;
     text-align: center;
 }
-.btn {
-    width: 50px;
-    height: 50px;
-    font-size: 1.5rem;
-}
+
 .counter-container button {
   background-color: #adb5bd;
 }
