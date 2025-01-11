@@ -164,7 +164,14 @@
     align-items: flex-start;
     padding: 20px;
   }
-  
+  .right-content h2{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .right-content span{
+    font-weight: bold;
+    font-size: 20px;
+  }
   .heading {
     font-size: 2rem;
     font-weight: bold;
@@ -180,3 +187,66 @@
     margin-top: 10px;
     padding: 10px 20px;
   }
+  .counter-container {
+    display: flex;
+    
+}
+.counter-value {
+    font-size: 2rem;
+    margin: 0 15px;
+    min-width: 60px;
+    text-align: center;
+}
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+.counter-container button {
+  background-color: #adb5bd;
+}
+.addbuttons {
+  border: 2px solid #ffc107;
+  color: #81C408;
+  padding: 6px;
+  border-radius: 27px;
+  font-size: 18px;
+  background-color: #ffc107;
+  transition: 0.2S ease-in;
+}
+
+.addbuttons:hover{
+color: white;
+font-weight: 800;
+background-color: #81C408;
+}
+.addbuttons i button:hover{
+  color: white;
+}
+.addbuttons i button {
+  border: none;
+  background: none;
+  color: #81C408;
+  transition: 0.2S ease-in;
+
+}
+.heading-container{
+  font-size: 22px;
+  font-weight: 700;
+}
+.star-list li{
+ position: relative;
+ right: 35px;
+ margin-top: 6px;
+ color: #ffc107;
+}
+.right-content p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.image-border{
+  display: flex;
+  border: 2px solid #adb5bd;
+  border-radius: 22px;
+}

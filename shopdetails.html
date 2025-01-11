@@ -80,24 +80,49 @@
     </nav>
     <!-- navbar -->
 
-    <div class="container-fluid">
+  
+  
+
+    <div class="container-fluid mt-5">
         <div class="row">
           <!-- Main Content -->
           <div class="col-md-8">
             <div class="container-fluid">
                 <div class="row">
                   <!-- Left Big Image -->
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 image-border">
                     <img src="./assets/images/Home/cauliflower-isolated.jpg" class="img-fluid left-image" alt="Large Image">
                   </div>
               
                   <!-- Right Side Content -->
                   <div class="col-lg-6 right-content">
-                    <h2 class="heading">Your Heading Here</h2>
+                    <h3 class="heading-container">Cauliflower</h3>
+                    <h2>Category of Vegetables</h2>
+                    <span>3.35 $</span>
+                    <ul class="star-list d-flex">
+                      <li class="list-unstyled"><i class="fa-solid fa-star"></i></li>
+                      <li class="list-unstyled"><i class="fa-solid fa-star"></i></li>
+                      <li class="list-unstyled"><i class="fa-solid fa-star"></i></li>
+                      <li class="list-unstyled"><i class="fa-solid fa-star"></i></li>
+                      <li class="list-unstyled"><i class="fa-solid fa-star"></i></li>
+                    </ul>
                     <p class="content">
-                      This is where you can add some content. It could be text, descriptions, or anything you want to showcase next to the image. You can also add additional styling here.
+                      The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.
                     </p>
-                    <button class="btn btn-primary">Learn More</button>
+                    <p>Susp endisse ultricies nisi vel quam suscipit. Sabertooth peacock flounder; chain pickerel hatchetfish, pencilfish snailfish
+                      1
+                      </p>
+                    
+                      <div class="container">
+                        <div class="counter-container">
+                            <button class="btn-grey border-0" id="decrement">-</button>
+                            <div class="counter-value" id="counter">0</div>
+                            <button class="btn-grey border-0" id="increment">+</button>
+                        </div>
+                    </div>
+                    <div class="addbuttons mt-5 d-flex justify-content-between align-content-between">
+                      <i class="fa-solid fa-bag-shopping"><button class="">Add to cart</button></i> 
+                    </div>
                   </div>
                 </div>
               </div>
@@ -219,12 +244,6 @@
                       </div>
                     </div>
                   </div>
-                  <!-- Repeat product items... -->
-                  <div class="container">
-                    <div class="button-view">
-                      <button class="btn">View More</button>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -236,7 +255,7 @@
         <!-- footer -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 z-1">
             <div class="container py-5">
-              <div class="pb-4 mb-4"">
+              <div class="pb-4 mb-4">
                       <div class=" row g-4">
                 <div class="col-lg-3">
                   <a href="#" class=" text-decoration-none">
@@ -313,11 +332,13 @@
             <a href="#" class="btn btn-warning border-3 border-warning rounded-circle back-to-top"><i
                 class="fa fa-arrow-up"></i></a>
           </div>
-      
+        </div>
+  </div>
+
         </div>
         <!-- footer -->
         </div>
-      
+     
         <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -328,7 +349,34 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
           integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      
+        
+          <script>
+            const counter = document.getElementById('counter');
+            const incrementBtn  = document.getElementById('increment');
+            const decrementBtn  = document.getElementById('decrement');
+    
+            let count = 0;
+    
+            incrementBtn.addEventListener('click',()=>{
+              count ++;
+              updatecounter();
+            })
+    
+            decrementBtn.addEventListener('click',()=>{
+              if(count > 0)
+            {
+    
+              count --;
+            }
+              updatecounter();
+    
+            })
+    
+            function updatecounter()
+            {
+              counter.textContent = count;
+            }
+          </script>
       </body>
       
       </html>

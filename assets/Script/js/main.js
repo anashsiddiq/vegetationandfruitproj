@@ -122,5 +122,3 @@ document.querySelector('.back-to-top').addEventListener('click', function(event)
   });
 });
 
-
-
